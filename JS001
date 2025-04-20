@@ -1,0 +1,26 @@
+What is Javascript?
+JavaScript is high-level, interpreted and programming language, used to add interactivity to web pages and become the most import part of the web development along with html and css.
+Using Javascript we can make application interactive by handling user clicks, make the page with dynamic content, form validations and make animations also.
+Javascript can be used in wild range of application development
+1. Client Side development: using javascript based frameworks like react, angular we make great user interfaces easily
+2. Server Side development: using Nodejs Environment which can run the javascript outside the browser, we can handle server side logic, api's and interact with DB and send the response to FE
+3. Desktop Applications: using javascript based framework like ElectronJs, we can make desktop applications like VS Code, Slack etc
+4. Mobile Applications: again javascript based framworks like React Native, we can implment both mobile and web applications at the same time
+5. Machine Learning: using framework like phaser.js we can run machine learning models in the browser itself
+6. IOT applications: using javascript based framework like node red we can implement code for IOT devices
+
+Javascript is a Just-In-Time complier programming language - means code can be converted to high level to machine level at run time only
+Javascript is a synchronous, single threaded language - means executes line by line and one at a time
+Javascript is a programming language with first class functions where functions are treated as like any other variables, means functions can be assigned as a value to variables and passed as argument to another function and even return the function as result
+Example: call back functions, anonymous functions, higher order functions
+
+call back function: is a function which is passed as argument to another function and then executes in that outer function to complete some kind of routine or action
+anonymous function: is a function without function name. Ex- arrow functions
+higher order function: is a function with takes one or more functions as arguments
+
+In browsers Javascript code is executed by V8 engine and in non browser environment using nodejs which has V8 engine, we can execute the Javascript code
+
+Execution Context: Everything in Javascript is execute in the execution context.
+Execution context creates the required environment, variables and it scope chain make the Javascrit engine to execute the code
+Execution context is created when a program file start executes. It is global object has the all the globally defined variables and functions and also has windows object when it is executed in brower
+
